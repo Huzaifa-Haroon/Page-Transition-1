@@ -32,44 +32,44 @@ let reviews = document.querySelector('.reviews');
 homeLink.addEventListener('click',function(){
     home.style.transform = "translateY(0)";
     document.querySelector('.navbar').style.backgroundColor = "brown";
-    about.style.transform = "translateY(100%)";
-    contact.style.transform = "translateY(100%)";
-    services.style.transform = "translateY(100%)";
-    reviews.style.transform = "translateY(100%)";
+    about.style.transform = "translateY(-120%)";
+    contact.style.transform = "translateY(-120%)";
+    services.style.transform = "translateY(-120%)";
+    reviews.style.transform = "translateY(-120%)";
 
 })
 aboutLink.addEventListener('click',function(){
     about.style.transform = "translateY(0)";
     document.querySelector('.navbar').style.backgroundColor = "seagreen";
-    home.style.transform = "translateY(100%)";
-    contact.style.transform = "translateY(100%)";
-    services.style.transform = "translateY(100%)";
-    reviews.style.transform = "translateY(100%)";
+    home.style.transform = "translateY(-120%)";
+    contact.style.transform = "translateY(-120%)";
+    services.style.transform = "translateY(-120%)";
+    reviews.style.transform = "translateY(-120%)";
 
 })
 
 contactLink.addEventListener('click',function(){
     contact.style.transform = "translateY(0)";
     document.querySelector('.navbar').style.backgroundColor = "black";
-    home.style.transform = "translateY(100%)";
-    about.style.transform = "translateY(100%)";
-    services.style.transform = "translateY(100%)";
-    reviews.style.transform = "translateY(100%)";
+    home.style.transform = "translateY(-120%)";
+    about.style.transform = "translateY(-120%)";
+    services.style.transform = "translateY(-120%)";
+    reviews.style.transform = "translateY(-120%)";
 
 })
 servicesLink.addEventListener('click',function(){
     services.style.transform = "translateY(0)";
     document.querySelector('.navbar').style.backgroundColor = "rebeccapurple";
-    about.style.transform = "translateY(100%)";
-    contact.style.transform = "translateY(100%)";
-    home.style.transform = "translateY(100%)";
-    reviews.style.transform = "translateY(100%)";
+    about.style.transform = "translateY(-120%)";
+    contact.style.transform = "translateY(-120%)";
+    home.style.transform = "translateY(-120%)";
+    reviews.style.transform = "translateY(-120%)";
 })
 reviewsLink.addEventListener('click',function(){
     reviews.style.transform = "translateY(0)";
     document.querySelector('.navbar').style.backgroundColor = "slategray";
-    about.style.transform = "translateY(100%)";
-    contact.style.transform = "translateY(100%)";
-    services.style.transform = "translateY(100%)";
-    home.style.transform = "translateY(100%)";
+    about.style.transform = "translateY(-120%)";
+    contact.style.transform = "translateY(-120%)";
+    services.style.transform = "translateY(-120%)";
+    home.style.transform = "translateY(-120%)";
 })
